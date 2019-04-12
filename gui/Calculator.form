@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.Calculator">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="146" y="69" width="390" height="258"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="bf322" class="javax.swing.JButton" binding="b7">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="7"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="9db1" class="javax.swing.JButton" binding="b8">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="8"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="3a9b4" class="javax.swing.JButton" binding="b9">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="9"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="af5fe" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <doubleBuffered value="true"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="808b4" class="javax.swing.JButton" binding="bDivide">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="/"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="eb630" class="javax.swing.JButton" binding="b4">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="4"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="e8a08" class="javax.swing.JButton" binding="b5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="5"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="b563c" class="javax.swing.JButton" binding="b6">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="6"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="e284f" class="javax.swing.JButton" binding="b1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="6419f" class="javax.swing.JButton" binding="b2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="2"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="13b39" class="javax.swing.JButton" binding="b3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="3"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="2ebc8" class="javax.swing.JButton" binding="b0">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d3ee0" class="javax.swing.JButton" binding="bDot">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value=","/>
+          <text value=","/>
+        </properties>
+      </component>
+      <component id="47d77" class="javax.swing.JButton" binding="bMultiply">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="*"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="ce669" class="javax.swing.JButton" binding="bMinus">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="-"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="d27f6" class="javax.swing.JButton" binding="bPlus">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="+"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="13601" class="javax.swing.JButton" binding="bDel">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="C"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="ae58e" class="javax.swing.JButton" binding="bEqual">
+        <constraints>
+          <grid row="2" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <label value="="/>
+          <text value="="/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
